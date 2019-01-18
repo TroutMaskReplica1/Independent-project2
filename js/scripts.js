@@ -1,18 +1,16 @@
 $(document).ready(function() {
 $('form#track-form').submit(function(event) {
   var trackInput = $("input#track-input").val();
-  switch (trackInput) {
-    case "ruby":
-      "#ruby".show();
-      break;
-    case "php":
-      "#php".show();
-    case "c#":
-      "#csharp".show();
-      break;
-    default:
-      alert("please choose between ruby, php, and c#")
-  // event.preventDefault();
-}
+  var ruby = "#ruby"
+  var php = "#php"
+  var csharp = "#csharp"
+  if (trackInput = ruby) {
+    $("#ruby").show();
+  } else if (trackInput = php) {
+    $("#php").show();
+  } else {
+    ("#csharp").show();
+  }
+  event.preventDefault();
 });
 });

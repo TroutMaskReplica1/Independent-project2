@@ -3,15 +3,15 @@ $('form#track-form').submit(function(event) {
   var trackInput = $("input#track-input").val();
   switch (trackInput) {
     case "ruby":
-      "#ruby".toggle();
+      "#ruby".show();
       break;
     case "php":
-      "#php".toggle();
+      "#php".show();
     case "c#":
-      "#csharp".toggle();
+      "#csharp".show();
       break;
     default:
-      text = "please choose between ruby, php, and c#"
+      alert("please choose between ruby, php, and c#")
   // event.preventDefault();
 }
 });

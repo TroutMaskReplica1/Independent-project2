@@ -26,6 +26,7 @@ $(document).ready(function() {
       $("#csharp").hide();
       $("#php").hide();
       $("#ruby").hide();
+      $("#question").hide();
     }
     event.preventDefault();
 });

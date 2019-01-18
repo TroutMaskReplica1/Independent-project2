@@ -3,3 +3,13 @@
   text-align: center;
   font-size: 200%;
 }
+
+.jumbotron {
+  background-color: rgba(150, 2, 98, 0.1);
+}
+
+body {
+  background-color: rgba(150, 2, 99, 0.17);
+  text-align: center;
+  padding: 1rem;
+}

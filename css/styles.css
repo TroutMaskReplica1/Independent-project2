@@ -14,3 +14,19 @@ body {
   text-align: center;
   padding: 1rem;
 }
+
+#other {
+  text-shadow: 2px 2px 10px white;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgba(255, 5, 5, 0.45);
+}
